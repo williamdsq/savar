@@ -18,7 +18,7 @@ PERSON_CLASS_ID = 0
 CELLPHONE_CLASS_ID = 67
 
 # Inicializa webcam
-cap = cv2.VideoCapture("videov.mp4")
+cap = cv2.VideoCapture("rtsp://admin:2i7xw458@192.168.0.105:554/cam/realmonitor?channel=1&subtype=0")
 
 # Controle de alerta e tempo
 alert_triggered = False
